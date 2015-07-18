@@ -1,0 +1,29 @@
+[07-Jul-2015 13:52:58 Etc/GMT] PHP Warning:  Missing argument 4 for SendMailSmtpClass::send(), called in /home/cloudspi/public_html/ems/mailtest.php on line 40 and defined in /home/cloudspi/public_html/ems/SendMailSmtpClass.php on line 50
+[07-Jul-2015 13:52:58 Etc/GMT] PHP Notice:  Undefined variable: headers in /home/cloudspi/public_html/ems/SendMailSmtpClass.php on line 53
+[07-Jul-2015 13:54:06 Etc/GMT] PHP Warning:  Missing argument 4 for SendMailSmtpClass::send(), called in /home/cloudspi/public_html/ems/mailtest.php on line 40 and defined in /home/cloudspi/public_html/ems/SendMailSmtpClass.php on line 50
+[07-Jul-2015 13:54:06 Etc/GMT] PHP Notice:  Undefined variable: headers in /home/cloudspi/public_html/ems/SendMailSmtpClass.php on line 53
+[07-Jul-2015 15:47:31 Etc/GMT] PHP Warning:  require(email-class/PHPMailerAutoload.php): failed to open stream: No such file or directory in /home/cloudspi/public_html/ems/mailtest.php on line 7
+[07-Jul-2015 15:47:31 Etc/GMT] PHP Warning:  require(email-class/PHPMailerAutoload.php): failed to open stream: No such file or directory in /home/cloudspi/public_html/ems/mailtest.php on line 7
+[07-Jul-2015 15:47:31 Etc/GMT] PHP Fatal error:  require(): Failed opening required 'email-class/PHPMailerAutoload.php' (include_path='.:/opt/alt/php54/usr/share/pear:/opt/alt/php54/usr/share/php') in /home/cloudspi/public_html/ems/mailtest.php on line 7
+[07-Jul-2015 16:55:43 Etc/GMT] PHP Warning:  require(email-class/PHPMailerAutoload.php): failed to open stream: No such file or directory in /home/cloudspi/public_html/ems/mailtest.php on line 7
+[07-Jul-2015 16:55:43 Etc/GMT] PHP Warning:  require(email-class/PHPMailerAutoload.php): failed to open stream: No such file or directory in /home/cloudspi/public_html/ems/mailtest.php on line 7
+[07-Jul-2015 16:55:43 Etc/GMT] PHP Fatal error:  require(): Failed opening required 'email-class/PHPMailerAutoload.php' (include_path='.:/opt/alt/php54/usr/share/pear:/opt/alt/php54/usr/share/php') in /home/cloudspi/public_html/ems/mailtest.php on line 7
+[07-Jul-2015 16:56:29 Etc/GMT] PHP Warning:  require(/classes/email-class/PHPMailerAutoload.php): failed to open stream: No such file or directory in /home/cloudspi/public_html/ems/mailtest.php on line 7
+[07-Jul-2015 16:56:29 Etc/GMT] PHP Warning:  require(/classes/email-class/PHPMailerAutoload.php): failed to open stream: No such file or directory in /home/cloudspi/public_html/ems/mailtest.php on line 7
+[07-Jul-2015 16:56:29 Etc/GMT] PHP Fatal error:  require(): Failed opening required '/classes/email-class/PHPMailerAutoload.php' (include_path='.:/opt/alt/php54/usr/share/pear:/opt/alt/php54/usr/share/php') in /home/cloudspi/public_html/ems/mailtest.php on line 7
+[07-Jul-2015 17:06:13 Etc/GMT] PHP Fatal error:  Uncaught exception 'phpmailerException' with message 'SMTP Error: Could not authenticate.' in /home/cloudspi/public_html/ems/classes/email-class/class.phpmailer.php:1458
+Stack trace:
+#0 /home/cloudspi/public_html/ems/classes/email-class/class.phpmailer.php(1311): PHPMailer->smtpConnect(Array)
+#1 /home/cloudspi/public_html/ems/classes/email-class/class.phpmailer.php(1156): PHPMailer->smtpSend('Date: Tue, 7 Ju...', 'Message\n')
+#2 /home/cloudspi/public_html/ems/classes/email-class/class.phpmailer.php(1060): PHPMailer->postSend()
+#3 /home/cloudspi/public_html/ems/mailtest.php(35): PHPMailer->send()
+#4 {main}
+  thrown in /home/cloudspi/public_html/ems/classes/email-class/class.phpmailer.php on line 1458
+[07-Jul-2015 17:06:40 Etc/GMT] PHP Fatal error:  Uncaught exception 'phpmailerException' with message 'SMTP Error: Could not authenticate.' in /home/cloudspi/public_html/ems/classes/email-class/class.phpmailer.php:1458
+Stack trace:
+#0 /home/cloudspi/public_html/ems/classes/email-class/class.phpmailer.php(1311): PHPMailer->smtpConnect(Array)
+#1 /home/cloudspi/public_html/ems/classes/email-class/class.phpmailer.php(1156): PHPMailer->smtpSend('Date: Tue, 7 Ju...', 'Message\n')
+#2 /home/cloudspi/public_html/ems/classes/email-class/class.phpmailer.php(1060): PHPMailer->postSend()
+#3 /home/cloudspi/public_html/ems/mailtest.php(35): PHPMailer->send()
+#4 {main}
+  thrown in /home/cloudspi/public_html/ems/classes/email-class/class.phpmailer.php on line 1458
