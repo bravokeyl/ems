@@ -228,8 +228,6 @@ UIManager::getInstance()->setHomeLink($homeLink);
 			            
 			            <?php }?> 
                         
-                           <li><a href="esearch.php">
-                           <i class="fa fa-search"></i>E-Directory</a></li>
                     </ul>
                 </section>
                 <!-- /.sidebar -->

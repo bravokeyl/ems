@@ -1,0 +1,11 @@
+{
+"label":"E-Directory",
+"menu":"E-Directory",
+"order":"1",
+"icon":"fa-search",
+"user_levels":["Admin","Manager","Employee"],
+
+"permissions":
+	{
+	}
+}
